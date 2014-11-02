@@ -317,9 +317,12 @@ INSTALLED_APPS = (
     "mezzanine.pages",
     "mezzanine.galleries",
     "mezzanine.twitter",
-    #"mezzanine.accounts",
+    "textbooktrader",
+    "mezzanine.accounts",
     #"mezzanine.mobile",
 )
+
+#AUTH_PROFILE_MODULE = "textbooktrader.MyProfile"
 
 # List of processors used by RequestContext to populate the context.
 # Each one should be a callable that takes the request object as its
